@@ -39,8 +39,8 @@ export default defineNuxtConfig({
       title: `${name} is Releasing...`,
       viewport: 'width=device-width,initial-scale=1',
       link: [
-        { rel: 'icon', href: '/favicon.png' },
-        { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' },
+        // { rel: 'icon', href: '/favicon.png' },
+        // { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' },
         { rel: 'alternate', type: 'application/rss+xml', title: `${name}'s recent releases`, href: '/feed.xml' },
       ],
       meta: [
@@ -48,10 +48,10 @@ export default defineNuxtConfig({
         { name: 'description', content: `${name}'s recent releases` },
         { name: 'theme-color', media: '(prefers-color-scheme: light)', content: 'white' },
         { name: 'theme-color', media: '(prefers-color-scheme: dark)', content: '#222222' },
-        { property: 'og:image', content: `${website}/og.png` },
+        // { property: 'og:image', content: `${website}/og.png` },
         { property: 'og:image:alt', content: `${name} is Releasing...` },
         { name: 'twitter:card', content: 'summary_large_image' },
-        { name: 'twitter:image', content: `${website}/og.png` },
+        // { name: 'twitter:image', content: `${website}/og.png` },
         { name: 'twitter:image:alt', content: `${name} is Releasing...` },
       ],
     },

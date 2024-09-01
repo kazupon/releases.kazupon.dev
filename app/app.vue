@@ -4,7 +4,6 @@ useDark()
 
 <template>
   <NuxtPage />
-  <ArtPlum />
 </template>
 
 <style>

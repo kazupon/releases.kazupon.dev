@@ -37,7 +37,7 @@ const config = useRuntimeConfig()
         <button title="Toggle Dark Mode" @click="isDark = !isDark">
           <span i-ph-sun-duotone dark:i-ph-moon-stars-duotone flex />
         </button>
-        <a href="https://github.com/antfu/releases.antfu.me" target="_blank" title="GitHub Source Code">
+        <a href="https://github.com/kazupon/releases.kazupon.dev" target="_blank" title="GitHub Source Code">
           <span i-ph-github-logo-duotone flex />
         </a>
         <a href="/feed.xml" target="_blank" title="RSS Feed">
